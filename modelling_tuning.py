@@ -21,7 +21,7 @@ dagshub.init(
 # LOAD DATA
 # ======================
 df = pd.read_csv(
-    "/content/preprocessing/namadataset_preprocessing/ibm_hr_attrition_preprocessed.csv"
+    "ibm_hr_attrition_preprocessed.csv"
 )
 
 X = df.drop("Attrition", axis=1)
